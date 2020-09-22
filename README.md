@@ -3,7 +3,7 @@ Code and instructions for the ToastTimer project.
 
 ToastTimer is a project for an automatic speech timer used by Toastmaster(TM) participants.
 
-Most pParts needed can be obtained from Adafruit, Amazon, and other sources.
+Most parts needed can be obtained from Adafruit, Amazon, and other sources.
 The shell and mounting bracket can be 3D printed.
 
 ## CAD for 3D printing
@@ -26,9 +26,10 @@ Other parts required for the build:
    1. panel rocker switch for power
    1. micro-USB extender (from feather to outer shell)
    1. micro-USB charger (1A recommended)
+   1. small screws for assembly
 
 ## Wiring
-   * NeoPixels get power from the 3.3V rail on the breadboard area.  Add a 1000uF capacitor between 3.3V and GND.
+   * NeoPixels get power from the 3.3V rail on the feather's breadboard area.  Add a 1000uF capacitor between 3.3V and GND.
    * NeoPixel signal comes from PIN 2. Add a 470ohm series resistor on this line.
    * Power switch goes between GND and EN
    * All buttons share a common ground
